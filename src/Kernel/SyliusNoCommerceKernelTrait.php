@@ -43,30 +43,6 @@ trait SyliusNoCommerceKernelTrait
             'sylius_shop_ajax_user_check_action',
         ],
 
-        // Products
-        'product' => [
-            'sylius_admin_product',
-            'sylius_admin_api_product',
-            'sylius_admin_ajax_product',
-            'sylius_shop_partial_product',
-            'sylius_shop_product',
-            'sylius_admin_partial_product',
-            'sylius_admin_ajax_generate_product_slug',
-            'api_product',
-        ],
-
-        // Taxons
-        'taxon' => [
-            'sylius_admin_partial_taxon',
-            'sylius_admin_ajax_taxon',
-            'sylius_admin_taxon',
-            'sylius_admin_api_taxon',
-            'sylius_shop_partial_taxon',
-            'sylius_admin_ajax_generate_taxon_slug',
-            'sylius_shop_partial_channel_menu_taxon_index',
-            'api_taxon',
-        ],
-
         // Checkout
         'checkout' => [
             'sylius_admin_api_checkout',
@@ -118,13 +94,6 @@ trait SyliusNoCommerceKernelTrait
         // Inventory
         'inventory' => [
             'sylius_admin_inventory',
-        ],
-
-        // Attributes
-        'attribute' => [
-            'sylius_admin_get_attribute_types',
-            'sylius_admin_get_product_attributes',
-            'sylius_admin_render_attribute_forms',
         ],
 
         // Payments

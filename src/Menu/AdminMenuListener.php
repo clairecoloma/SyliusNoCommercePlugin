@@ -41,7 +41,6 @@ final class AdminMenuListener
         }
 
         $menu->removeChild('sales');
-        $menu->removeChild('catalog');
         $menu->removeChild('marketing');
 
         if (!$this->config->areCustomersAllowed()) {
