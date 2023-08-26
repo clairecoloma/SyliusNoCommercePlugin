@@ -31,16 +31,12 @@ final class TemplateBlockRegistryDecorator implements TemplateBlockRegistryInter
             'after_header_legacy',
             'statistics',
             'after_statistics_legacy',
-            'menu',
             'after_menu_legacy',
             'latest',
             'after_content_legacy',
         ],
         'sylius.shop.layout.header.grid' => [
             'cart',
-        ],
-        'sylius.shop.layout.header' => [
-            'menu',
         ],
         'sylius.shop.homepage' => [
             'latest_products',

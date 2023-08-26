@@ -49,7 +49,6 @@ final class ChannelTypeExtension extends AbstractTypeExtension
 
         $builder
             ->remove('shopBillingData')
-            ->remove('menuTaxon')
             ->remove('skippingShippingStepAllowed')
             ->remove('skippingPaymentStepAllowed')
             ->remove('baseCurrency')
