@@ -91,11 +91,6 @@ trait SyliusNoCommerceKernelTrait
             'api_ship',
         ],
 
-        // Inventory
-        'inventory' => [
-            'sylius_admin_inventory',
-        ],
-
         // Payments
         'payment' => [
             'sylius_admin_payment',
